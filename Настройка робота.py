@@ -1,3 +1,5 @@
+from datetime import time
+
 import emoji
 
 print(emoji.emojize("Python is fun :snake:"))
