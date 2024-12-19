@@ -1,7 +1,9 @@
-print('Hi, Sergey!')
-name = input("Enter your name")
-if 5 > 1:
-    print("ok")
-    print("not ok")
-    if 1 > 0:
-        print("i'm here")
+while True:
+    number = int (input("Введите число: "))
+    if number % 2 == 0:
+        print("Число четное")
+        continue
+    else:
+        print("Число нечетное")
+    print("Меня не забыли")
+print("Я за циклом")
