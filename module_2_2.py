@@ -11,6 +11,7 @@ elif first == second or first == third or second == third:
 else:
     print(0)  # Все числа разные
 
+
 # программа для выполнения задачи "Все ли равны?"
 def check_equal_numbers():
     # Ввод трех целых чисел
@@ -25,6 +26,7 @@ def check_equal_numbers():
         print(2)  # Два числа равны
     else:
         print(0)  # Все числа разные
+
 
 # Запуск функции
 if __name__ == "__main__":
